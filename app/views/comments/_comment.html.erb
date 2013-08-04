@@ -1,0 +1,8 @@
+<p>
+  <strong><%= comment.commenter %> :: </strong>
+  <%= comment.body %>
+</p>
+
+<p>
+  <%= link_to 'Destroy Comment', [comment.post, comment], method: :delete %>
+</p>
